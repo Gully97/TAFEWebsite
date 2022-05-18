@@ -1,0 +1,159 @@
+.logo {
+    width: fit-content;
+    object-fit: contain;
+    max-width:100%;
+}
+
+.main-header {
+    background-color: rgb(104, 39, 33);
+}
+
+.navigation {
+    background-color: rgb(175, 175, 175);
+    /* text-align: center; */
+}
+.navigation a {
+    color: #4d1d18;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+}
+.navigation a:hover {
+    color: #555;
+}
+
+body {
+    background-color: rgb(209, 209, 209);
+    font-family: 'Helvetica', 'Calibri', monospace;
+    margin: 0;
+    letter-spacing: 2px
+}
+
+.banner {
+    background-image: url("content/banner.jpg");
+    aspect-ratio: 16/5;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+
+.banner h1 {
+    font-size: 36px;
+    color: #87423c;
+    text-shadow: black 2px 2px 1px;
+}
+
+.subheader {
+    aspect-ratio: 16/5;
+    display: block;
+    text-align: center;
+}
+
+.subheader h1 {
+    font-size: 24px;
+    color: #4d1d18;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+    margin: 0 20px;
+}
+.social {
+    text-align: center;
+}
+
+.social a:hover {
+    color: grey;
+}
+
+.content {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 30px;
+    /* margin-top: 30px; */
+    margin: 30px;
+    line-height: 150%;
+}
+
+.content p {
+    text-align: left;
+}
+
+.content p1 {
+    text-align: center;
+}
+
+.content.cont {
+    grid-template-columns: 1fr ;
+}
+
+.contact.contact {
+    grid-template-columns: 1fr 2fr 1fr ;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card-image {
+    aspect-ratio: 4/1.5;
+    overflow: hidden;
+}
+ 
+.mapcon {
+    place-items: center;
+}
+
+.vidcon {
+    display: block;
+    text-align: center;
+    margin: 0  auto;
+}
+
+.card h3 {
+    color: #4d1d18; 
+    font-size: 24px;
+}
+
+
+#contact-form {
+    grid-column-start: 2;
+    background-color: #00000042;
+    padding: 30px 40px;
+    border-radius: 10px;
+    color: #4d1d18;
+}
+
+/* form styles */ 
+
+#contact-form > label    {
+    display: block;
+    font-weight: bold;
+}
+
+#contact-form > input,
+#contact-form > select,
+#contact-form > textarea    {
+    min-width: 95%;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px #575757 
+}
+
+
+#contact-form > input:focus,
+#contact-form > select:focus,
+#contact-form > textarea:focus {
+    outline: #24099e solid 1px;
+}
+
+.checkbox, .radio {
+    padding: 15px 0;
+}
